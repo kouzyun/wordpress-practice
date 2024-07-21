@@ -1,6 +1,9 @@
 # 構築手順書:VagrantでWordPressの構築をする
 vagrant上にCentOS7・nginxのインストールし、WordPressのインストール手順から記述。
 
+![無題のプレゼンテーション (4)](https://github.com/user-attachments/assets/87b2c250-8fb5-4e16-922e-98e5f35564a5)
+
+
 
 ## macOSからVirtualBoxのCentOSに公開鍵認証でssh接続
 クライアント側で、/Users/user/.ssh/直下に秘密鍵と公開鍵を作成する

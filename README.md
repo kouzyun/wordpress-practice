@@ -267,10 +267,10 @@ $ vim /etc/php-fpm.d/www.conf
 以下のように修正
 ```
 pm = static
-pm.max_children = 50
-pm.start_servers = 50
-pm.min_spare_servers = 50
-pm.max_spare_servers = 50
+pm.max_children = 10
+pm.start_servers = 10
+pm.min_spare_servers = 10
+pm.max_spare_servers = 10
 pm.process_idle_timeout = 10s;
 pm.max_requests = 100
 php_admin_value[memory_limit] = 256M
